@@ -40,8 +40,8 @@ body:
         - iOS
         - Android
         - other
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
@@ -53,6 +53,8 @@ body:
         - Safari
         - Microsoft Edge
         - other
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
