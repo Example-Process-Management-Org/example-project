@@ -40,6 +40,8 @@ body:
         - iOS
         - Android
         - other
+      validations:
+        required: true
   - type: dropdown
     id: browsers
     attributes:
